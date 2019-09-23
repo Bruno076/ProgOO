@@ -1,5 +1,6 @@
 import java.util.Date;
 
+//Dupla: Bruno Legentil e Vitor de Souza
 
 
 public class Partida implements IPartida
@@ -50,7 +51,7 @@ public class Partida implements IPartida
 	public void iniciarPartida() 
 		{
 		System.out.println("Hino Nacional!");
-		System.out.println("Apita o ¡rbitro, comeÁa a partida!");
+		System.out.println("Apita o √Årbitro, come√ßa a partida!");
 		scoreLocal = Random_Placar(0,10);
 		scoreVisitante = Random_Placar(0,10);
 	
